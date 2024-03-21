@@ -70,11 +70,11 @@ cases =
            , expected    = Nothing
            }
     , Case { description = "invalid with letters"
-           , input       = "223-2bc-7d90"
+           , input       = "523-abc-7890"
            , expected    = Nothing
            }
-    , Case { description = "invalid with punctuation"
-           , input       = "223-5:!-7@90"
+    , Case { description = "invalid with punctuations"
+           , input       = "523-@:!-7890"
            , expected    = Nothing
            }
     , Case { description = "invalid if area code starts with 0"
